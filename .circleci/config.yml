@@ -56,11 +56,6 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Deploy Back-End
-          # TODO: Install, build, deploy in both apps
-          command: |
-            npm run backend:deploy
-      - run:
           name: Deploy Front-End
           # TODO: Install, build, deploy in both apps
           command: |
